@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lesson 10</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="img">
+          <img src="./imgs/logo.png" alt="" />
+        </div>
+        <ul class="nav-link">
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About </a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><button class="btn-1"><a href="./login.html" target="_blank">Log in</a></li></button>
+          <li><button class="btn-2"><a href="#">Open an account</a></button></li>
+          <li><button class="btn-3"><a href="#">EN</a></button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="login">
+                <img src="./imgs/logo.png" alt="">
+                <h1>Welcome to ByTrend!</h1>
+               <div class="flex-1">
+                 <p>Already have an account?</p>
+                <a href="./login.html">Log in</a>
+               </div>
+                <form action="">
+                 <div class="flex-2">
+                    <div class="name">
+                      <label for="name">First name*</label><br>
+                    <input type="text" id="name" required placeholder="Alexander">
+                    </div>
+                    <div class="name-2">
+                      <label for="last">Last name*</label><br>
+                    <input type="text" required id="last" placeholder="Your surname">
+                    </div>
+                    </div>
+                     <div class="birth">
+                    <label for="birth">Birth date*</label><br>
+                    <input type="datetime"  id="birth" required placeholder="06.12.1992"><br>
+                    </div>
+                  <span><label for="female">Gender</label><br></span>
+                   <div class="gen">
+                    <div class="gen-1">
+                    <input  type="radio" required name="gender" value="female" id="female">
+                    <label  for="female">Female</label><br>
+                    </div>
+                    <div class="gen-2">
+                      <input class="gen-2" type="radio" required name="gender" value="male" id="male">
+                    <label for="male">Male</label><br>
+                    </div>
+                   </div>
+                   <div class="sky">
+                     <label for="skype">Skype</label><br>
+                    <input type="text" id="skype" required name="skype" placeholder="Your login Skype"><br>
+                   </div>
+                   <div class="pro">
+                     <label for="promo">Promo</label><br>
+                    <input type="text" id="promo" required name="promo" placeholder="Your promo"><br>
+                   </div>
+                    <button class="btn-6" type="submit"><a href="./index-2.html" target="_blank">Continue</a></button>
+                </form>
+            </div>
+        </section>
+        <footer class="container"><p>©2020 All Rights Reserved. Lorem Technologies, Inc.</p></footer>
+    </main>
+  </body>
+</html>
